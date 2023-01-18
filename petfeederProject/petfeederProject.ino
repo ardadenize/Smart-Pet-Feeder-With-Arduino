@@ -1,7 +1,4 @@
-void setup() {
-  // put your setup code here, to run once:
-
-}#define BLYNK_PRINT Serial
+#define BLYNK_PRINT Serial
 #define BLYNK_DEBUG
 
 #include <ESP8266_Lib.h>
@@ -86,9 +83,4 @@ void stepIleri(int adimSayisi){                               //Step motora iler
     delay(sure);
     digitalWrite(IN1, LOW);
   }
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
 }
