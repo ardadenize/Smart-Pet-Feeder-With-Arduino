@@ -68,7 +68,7 @@ void loop()
 {
   Blynk.run();
 }
-void stepIleri(int adimSayisi){                               //Step motora ileri hareketi yaptırır.
+void stepIleri(int adimSayisi){                              
  for (int i = 0; i < adimSayisi; i++) {
     digitalWrite(IN4, HIGH);
     delay(sure);
